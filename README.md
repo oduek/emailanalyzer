@@ -1,4 +1,6 @@
 ## Analizador de correos electronicos en formato .eml en busqueda de señales de phishing.
+
+
  ______             _ _          _   
 |  ____|           (_) |        | |  
 | |__  _ __ ___  __ _ _| |  __ _ _ __  __ _| |_ _ _______ _ __ 
@@ -11,13 +13,13 @@
  Desarrollado por Oduek 
  https://github.com/oduek 
 
---COMO INSTALAR--
+## COMO INSTALAR
 
 pip install pyspellchecker langdetect python-whois requests beautifulsoup4
 
 Nota: --break-system-packages (si lo solicita)
 
---COMO USAR--
+## COMO USAR
 
 usage: EmailAnalyzer.py [-h] [-f FILE] [--json-output JSON_OUTPUT] [--vt-api-key VT_API_KEY] [--vt-key-delete]
 
