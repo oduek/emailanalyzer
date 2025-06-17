@@ -1,15 +1,5 @@
 ## Analizador de correos electronicos en formato .eml en busqueda de señales de phishing.
 
-
- ______             _ _          _   
-|  ____|           (_) |        | |  
-| |__  _ __ ___  __ _ _| |  __ _ _ __  __ _| |_ _ _______ _ __ 
-|  __| | '_ ` _ \ / _` | | | / _` | '_ \ / _` | | | | |_  / _ \ '__|
-| |____| | | | | | (_| | | || (_| | | | | (_| | | |_| |/ /  __/ |   
-|______|_| |_| |_|\__,_|_|_| \__,_|_| |_|\__,_|_|\__, /___\___|_|   
-                                                  __/ |             
-                                                 |___/              
-    
  Desarrollado por Oduek 
  https://github.com/oduek 
 
