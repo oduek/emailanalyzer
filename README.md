@@ -30,7 +30,7 @@ Ejemplo de uso:
   python emailanalyzer.py -f "adjunto_malicioso.eml" --vt-api-key TU_API_KEY_VIRUSTOTAL
   python emailanalyzer.py --vt-key-delete # Para eliminar la API Key de VirusTotal almacenada localmente en un archivo
 
-Cómo obtener un archivo .eml:
+## COMO OBTENER UN ARCHIVO .EML
   - Gmail: Abre el correo -> Haz clic en los tres puntos (Más) -> 'Descargar el mensaje'.
   - Outlook: Abre el correo -> 'Archivo' -> 'Guardar como' -> Formato: 'Texto sin formato (*.eml)'.
   - ProtonMail: Usa la herramienta Proton Mail Export Tool para exportar correos en formato EML.
