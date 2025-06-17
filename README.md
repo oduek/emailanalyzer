@@ -11,13 +11,13 @@ Nota: --break-system-packages (si lo solicita)
 
 ## COMO USAR
 
-usage: EmailAnalyzer.py [-h] [-f FILE] [--json-output JSON_OUTPUT] [--vt-api-key VT_API_KEY] [--vt-key-delete]
+uso: EmailAnalyzer.py [-h] [-f FILE] [--json-output JSON_OUTPUT] [--vt-api-key VT_API_KEY] [--vt-key-delete]
 
 Analizador de correos electrónicos (.eml) para detectar phishing.
 
 options:
-  -h, --help            show this help message and exit
-  -f, --file FILE       Ruta al archivo .eml que se desea analizar.
+  -h, --help           muestra el mensaje de ayuda.
+  -f, --file ARCHIVO       Ruta al archivo .eml que se desea analizar.
   --json-output JSON_OUTPUT
                         Ruta para guardar el reporte en formato JSON. Si no se especifica, el reporte se imprime en la consola.
   --vt-api-key VT_API_KEY
