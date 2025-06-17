@@ -11,7 +11,7 @@ Nota: --break-system-packages (si lo solicita)
 
 ## COMO USAR
 
-uso: EmailAnalyzer.py [-h] [-f FILE] [--json-output JSON_OUTPUT] [--vt-api-key VT_API_KEY] [--vt-key-delete]
+uso: python emailanalyzer.py [-h] [-f FILE] [--json-output JSON_OUTPUT] [--vt-api-key VT_API_KEY] [--vt-key-delete]
 
 Analizador de correos electrónicos (.eml) para detectar phishing.
 
@@ -25,10 +25,10 @@ options:
   --vt-key-delete       Elimina la API Key de VirusTotal guardada permanentemente y sale del script.
 
 Ejemplo de uso:
-  python EmailAnalyzer.py -f "correo_sospechoso.eml"
-  python EmailAnalyzer.py -f "correo.eml" --json-output reporte.json
-  python EmailAnalyzer.py -f "adjunto_malicioso.eml" --vt-api-key TU_API_KEY_VIRUSTOTAL
-  python EmailAnalyzer.py --vt-key-delete # Para eliminar la API Key de VirusTotal almacenada localmente en un archivo
+  python emailanalyzer.py -f "correo_sospechoso.eml"
+  python emailanalyzer.py -f "correo.eml" --json-output reporte.json
+  python emailanalyzer.py -f "adjunto_malicioso.eml" --vt-api-key TU_API_KEY_VIRUSTOTAL
+  python emailanalyzer.py --vt-key-delete # Para eliminar la API Key de VirusTotal almacenada localmente en un archivo
 
 Cómo obtener un archivo .eml:
   - Gmail: Abre el correo -> Haz clic en los tres puntos (Más) -> 'Descargar el mensaje'.
